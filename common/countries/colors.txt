@@ -12,8 +12,8 @@ BLE = {
 }
 
 UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color = rgb { 172 153 97 }
+	color_ui = rgb { 172 153 97 }	
 }
 
 ARM = {
@@ -32,9 +32,25 @@ GEO = {
 }
 
 UZB = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }
+	color = rgb { 244 202 66 }
+	color_ui = rgb { 244 202 66 }
 }
+
+TMS = {
+	color = rgb { 102 153 0 }
+	color_ui = rgb { 102 153 0 }
+}
+
+TAJ = {
+	color = rgb { 204 102 119 }
+	color_ui = rgb { 204 102 119 }
+}
+
+KYR = {
+	color = rgb { 255 140 0 }
+	color_ui = rgb { 255 140 0 }
+}
+
 
 # Custom countries end
 
