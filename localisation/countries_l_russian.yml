@@ -1,0 +1,131 @@
+﻿l_russian:
+
+    # Россия
+    RUS_autocracy: "Российская Федерация"
+    RUS_autocracy_DEF: "Российская Федерация"
+    
+    RUS_communism: "communism"
+    RUS_communism_DEF: "communism"
+    
+    RUS_democracy: "democracy"
+    RUS_democracy_DEF: "democracy"
+    
+    RUS_agrarian: "agrarian"
+    RUS_agrarian_DEF: "agrarian"
+    
+    RUS_pacifism: "pacifism"
+    RUS_pacifism_DEF: "pacifism"
+    
+    RUS_populism: "populism"
+    RUS_populism_DEF: "populism"
+    
+    RUS_monarchy: "monarchy"
+    RUS_monarchy_DEF: "monarchy"
+    
+    RUS_nationalism: "nationalism"
+    RUS_nationalism_DEF: "nationalism"
+    
+    RUS_others: "undefined"
+    RUS_others_DEF: "undefined"
+    
+    # Беларусь
+    BLE_autocracy: "Беларусь"
+    BLE_autocracy_DEF: "Беларусь"
+    
+    BLE_democracy: "Республика Беларусь"
+    BLE_democracy_DEF: "Республика Беларусь"
+    
+    BLE_agrarian: "Аграрная Беларусская Социалистическая Республика"
+    BLE_agrarian_DEF: "Аграрная Беларусская Социалистическая Республика"
+    
+    # Украина
+    UKR_autocracy: "Украина"
+    UKR_autocracy_DEF: "Украина"
+    
+    UKR_democracy: "Республика Украина"
+    UKR_democracy_DEF: "Республика Украина"
+    
+    UKR_agrarian: "Аграрная Украинская Социалистическая Республика"
+    UKR_agrarian_DEF: "Аграрная Украинская Социалистическая Республика"
+    
+    # Армения
+    ARM_autocracy: "Армения"
+    ARM_autocracy_DEF: "Армения"
+    
+    ARM_democracy: "Республика Армения"
+    ARM_democracy_DEF: "Республика Армения"
+    
+    ARM_agrarian: "Аграрная Украинская Социалистическая Республика"
+    ARM_agrarian_DEF: "Аграрная Украинская Социалистическая Республика"
+    
+    # Грузия
+    GEO_autocracy: "Грузия"
+    GEO_autocracy_DEF: "Грузия"
+    
+    GEO_democracy: "Республика Грузия"
+    GEO_democracy_DEF: "Республика Грузия"
+    
+    GEO_agrarian: "Аграрная Украинская Социалистическая Республика"
+    GEO_agrarian_DEF: "Аграрная Украинская Социалистическая Республика"
+    
+    # Азербайджан
+    AZR_autocracy: "Азербайджан"
+    AZR_autocracy_DEF: "Азербайджан"
+    
+    AZR_democracy: "Республика Азербайджан"
+    AZR_democracy_DEF: "Республика Азербайджан"
+    
+    AZR_agrarian: "Аграрная Украинская Социалистическая Республика"
+    AZR_agrarian_DEF: "Аграрная Украинская Социалистическая Республика"
+    
+    # Казахстан
+    KAZ_autocracy: "Казахстан"
+    KAZ_autocracy_DEF: "Казахстан"
+    
+    KAZ_democracy: "Республика Казахстан"
+    KAZ_democracy_DEF: "Республика Казахстан"
+    
+    KAZ_agrarian: "Аграрная Украинская Социалистическая Республика"
+    KAZ_agrarian_DEF: "Аграрная Украинская Социалистическая Республика"
+    
+    # Узбекистан
+    UZB_autocracy: "Узбекистан"
+    UZB_autocracy_DEF: "Узбекистан"
+    
+    UZB_democracy: "Республика Узбекистан"
+    UZB_democracy_DEF: "Республика Узбекистан"
+    
+    UZB_agrarian: "Аграрная Украинская Социалистическая Республика"
+    UZB_agrarian_DEF: "Аграрная Украинская Социалистическая Республика"
+    
+    # Туркменистан
+    TMS_autocracy: "Туркменистан"
+    TMS_autocracy_DEF: "Туркменистан"
+    
+    TMS_democracy: "Республика Туркменистан"
+    TMS_democracy_DEF: "Республика Туркменистан"
+    
+    TMS_agrarian: "Аграрная Украинская Социалистическая Республика"
+    TMS_agrarian_DEF: "Аграрная Украинская Социалистическая Республика"
+    
+    # Таджикистан
+    TAJ_autocracy: "Таджикистан"
+    TAJ_autocracy_DEF: "Таджикистан"
+    
+    TAJ_democracy: "Республика Таджикистан"
+    TAJ_democracy_DEF: "Республика Таджикистан"
+    
+    TAJ_agrarian: "Аграрная Украинская Социалистическая Республика"
+    TAJ_agrarian_DEF: "Аграрная Украинская Социалистическая Республика"
+    
+    # Киргизия
+    KYR_autocracy: "Киргизия"
+    KYR_autocracy_DEF: "Киргизия"
+    
+    KYR_democracy: "Республика Киргизия"
+    KYR_democracy_DEF: "Республика Киргизия"
+    
+    KYR_agrarian: "Аграрная Украинская Социалистическая Республика"
+    KYR_agrarian_DEF: "Аграрная Украинская Социалистическая Республика"
+    
+    

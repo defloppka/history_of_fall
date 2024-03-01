@@ -1,0 +1,144 @@
+ideas = {
+	country = {
+	
+		soviet_legacy = {
+			picture = great_depression
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+
+			}
+		}
+
+		demographic_crisis = {
+			picture = great_depression
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.35
+				stability_factor = -0.15
+
+			}
+		}
+		
+		brain_drain = {
+			picture = great_depression
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.15
+				production_factory_start_efficiency_factor = -0.1
+			}
+		}
+		
+		old_kpss = {
+			picture = great_depression
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_advisor_cost_factor = 0.1
+				economy_cost_factor = 0.2
+				trade_laws_cost_factor = 0.2
+				mobilization_laws_cost_factor = 0.2
+				army_chief_cost_factor = 0.2
+				navy_chief_cost_factor = 0.2
+				air_chief_cost_factor = 0.2
+				high_command_cost_factor = 0.2
+				theorist_cost_factor = 0.2
+				political_power_cost = 0.15
+			}
+		}
+		
+		corrupted_high_army = {
+			picture = great_depression
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_chief_cost_factor = 0.2
+				navy_chief_cost_factor = 0.2
+				air_chief_cost_factor = 0.2
+				high_command_cost_factor = 0.2
+				command_power_gain = -0.2
+				experience_gain_army = -0.2
+			}
+		}
+		
+		
+	}
+}

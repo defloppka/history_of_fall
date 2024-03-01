@@ -1,0 +1,83 @@
+﻿l_russian:
+ autocracy: "Автократия"
+ autocracy_noun: "Автократия"
+ autocracy_presedential: "Президентская Автократия"
+ autocracy_presedential_noun: "Президентская Автократия"
+# autocracy_presedential_desc: ">fyfydyhh"
+ 
+ communism: "Коммунизм"
+ communism_noun: "Коммунизм"
+ communism_socialism: "Социализм"
+ communism_socialism_noun: "Социализм"
+ 
+ democracy: "Демократия"
+ democracy_noun: "Демократия"
+ democracy_social: "Социал-Демократия"
+ democracy_social_noun: "Социал-Демократия"
+ 
+ agrarian: "Аграрианизм"
+ agrarian_noun: "Аграрианизм"
+ agrarian_socialism: "Аграрный Социализм"
+ agrarian_socialism_noun: "Аграрный Социализм"
+ 
+ pacifism: "Пацифизм"
+ pacifism_noun: "Пацифизм""
+ pacifism_group: "Пацифизм""
+ pacifism_group_noun: "Пацифизм""
+ 
+ populism: "Популизм"
+ populism_noun: "Популизм"
+ populism_militarized: "Военизированный Популизм"
+ populism_militarized_noun: "Военизированный Популизм"
+ 
+ centrism: "Центризм"
+ centrism_noun: "Центризм" 
+ centrism_group: "Центризм"
+ centrism_group_noun: "Центризм"
+ 
+ conservatism: "Консерватизм"
+ conservatism_noun: "Консерватизм"
+ conservatism_group: "Консерватизм"
+ conservatism_group_noun: "Консерватизм"
+
+ nationalism: "Национализм"
+ nationalism_noun: "Национализм"
+ nationalism_liberalism: "Либеральный Национализм"
+ nationalism_liberalism_noun: "Либеральный Национализм"
+ 
+ others: "Неопределённые"
+ others_noun: "Неопределённые"
+ others_group: "Неопределённые"
+ others_group_noun: "Неопределённые"
+ 
+ RUS_autocracy_party: "ВР"
+ RUS_autocracy_party_long: "Выбор России"
+ 
+ RUS_communism_party: "КПРФ"
+ RUS_communism_party_long: "Коммунистическая партия Российской Федерации"
+ 
+ RUS_democracy: "Социал-Демократия"
+ RUS_democracy_party: "ЯБ"
+ RUS_democracy_party_long: "Яблоко"
+ 
+ RUS_agrarian_party: "АПР"
+ RUS_agrarian_party_long: "Аграрная партия России"
+
+ RUS_pacifism_party: "ЖР"
+ RUS_pacifism_party_long: "Женщины России"
+ 
+ RUS_populism_party: "НРП"
+ RUS_populism_party_long: "Народно-республиканская партия"
+
+ RUS_centrism_party: "ПРЕС"
+ RUS_centrism_long: "Партия Российского Единства и Согласиия"
+
+ RUS_conservatism_party: "ДПР"
+ RUS_conservatism_party_long: "Демократическая партия России"
+ 
+ RUS_nationalism_party: "ЛДПР"
+ RUS_nationalism_party_long: "Либерально-Демократическая партия России"
+ 
+ RUS_others_party: "УК"
+ RUS_others_party_long: "Умеренная коалиция"
+ 

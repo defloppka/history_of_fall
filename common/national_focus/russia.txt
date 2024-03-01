@@ -1,0 +1,173 @@
+﻿focus_tree = {
+	id = russian_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	# Промышленные фокусы
+
+	focus = {
+		id = RUS_awareness_of_crisis
+		icon = GFX_goals_focus_RUS_default
+		x = 2
+		y = 0
+
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 100
+			set_stability = -0.15
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = RUS_new_economical_policy
+		icon = GFX_goals_focus_RUS_default
+		
+		x = 0
+		y = 1
+		relative_position_id = RUS_awareness_of_crisis
+
+		prerequisite = { focus = RUS_awareness_of_crisis }
+
+		cost = 10
+
+		completion_reward = {
+			army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = AST_additional_militia_training
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = RUS_raise_taxes_business
+		icon = GFX_goals_focus_RUS_default
+		
+		x = 0
+		y = 1
+		relative_position_id = RUS_new_economical_policy
+
+		prerequisite = { focus = RUS_new_economical_policy }
+
+		mutually_exclusive = { focus = RUS_raise_taxes_peoples }
+
+		cost = 5
+
+		completion_reward = {
+			army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = AST_additional_militia_training
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = RUS_raise_taxes_peoples
+		icon = GFX_goals_focus_RUS_default
+		
+		x = 2
+		y = 0
+		relative_position_id = RUS_raise_taxes_business
+
+		prerequisite = { focus = RUS_new_economical_policy }
+
+		mutually_exclusive = { focus = RUS_raise_taxes_business }
+
+		cost = 5
+
+		completion_reward = {
+			army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = AST_additional_militia_training
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+	}
+
+	focus = {
+		id = RUS_adjust_prices
+		icon = GFX_goals_focus_RUS_default
+		
+		x = 1
+		y = 1
+		relative_position_id = RUS_raise_taxes_business
+
+		prerequisite = { OR = {
+			focus = RUS_raise_taxes_business
+			focus = RUS_raise_taxes_peoples
+		} }
+
+
+		cost = 10
+
+		completion_reward = {
+			army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = AST_additional_militia_training
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+	}
+
+}

@@ -1,0 +1,40 @@
+bookmarks = {
+	bookmark = {
+		name = "Начало, перед концом"
+		desc = "Влад сделай описание тут!"
+		date = 1992.1.1.12
+		picture = "GFX_before_fall"
+		default_country = "RUS"
+	
+		RUS = {
+			history = "Влад и тут сделает описание истории"
+			ideology = vybor_rossii_main
+		}
+		
+
+		"---"={
+			history = "Other --- desk"
+		}
+
+		# minors from DLC ####
+		"CAN"={
+			minor = yes
+			history = "CAN_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+				CAN_great_depression_1
+				CAN_conscription_crisis
+			}
+			focuses = {
+				CAN_skewer_the_eagle
+				CAN_north_american_alliance
+				CAN_join_comintern
+			}
+		}
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

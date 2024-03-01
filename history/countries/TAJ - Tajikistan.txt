@@ -1,0 +1,53 @@
+﻿capital = 742
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+# recruit_character = ALG_acr
+
+
+set_stability = 0.8
+set_war_support = 0.09
+set_convoys = 20
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1992.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	autocracy = 17 # Выбор россии
+	communism = 10 # КПРФ
+	democracy = 6 # Яблоко
+	agrarian = 12 # АПР
+	pacifism = 5 # Женщины России
+	populism = 14 # НРП
+	centrism = 7 # ПРЕС
+	conservatism = 3 # ДПР
+	nationalism = 14 # ЛДПР
+	others = 12 # Коалиция Умеренных
+}
+
+create_country_leader = {
+	name = "Борис Ельцин"
+	desc = ""
+	picture = "BElzin.dds"
+	ideology = autocracy_presedential
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	soviet_legacy
+	demographic_crisis
+	brain_drain
+	old_kpss
+	corrupted_high_army
+}

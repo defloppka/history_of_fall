@@ -1,0 +1,122 @@
+﻿add_namespace = russia
+
+# 
+country_event = {
+	id = russia.1
+	title = russia.1.t
+	desc = russia.1.d
+	# picture = GFX_report_event_chinese_soldiers_fighting
+	
+	# is_triggered_only = yes
+	
+	trigger = {
+		original_tag = SOV
+		date > 1946.6.1
+	}
+	
+	# Ивент может появиться только 1 раз
+	fire_only_once = yes
+	
+#	mean_time_to_happen = {
+#		days = 500
+#		modifier = {
+#			factor = 1.0
+#		}
+#	}
+	
+	# Эффект сразу после появления события
+	immediate = {
+		hidden_effect = {
+			add_stability = -0.5
+		}
+	}
+	
+	option = {
+		name = russia.1.a
+		ai_chance = { factor = 90 }
+		effect_tooltip = {
+			JAP = {
+				add_war_support = 0.05
+				country_event = { id = japan.1 }
+				create_wargoal = {
+  					type = annex_everything
+  					target = CHI
+  				}
+  				create_wargoal = {
+  					type = annex_everything
+  					target = SHX
+  				}
+			}
+		}
+		hidden_effect = {
+			JAP = { country_event = { id = japan.1 } }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				has_war = yes
+			}
+			modifier = {
+				factor = 0.5
+				any_enemy_country = {
+					is_major = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = russia.1.b
+		ai_chance = { factor = 10 }
+		JAP = {
+			set_truce = { target = ROOT days = 180 }
+			effect_tooltip = {
+				transfer_state = 608
+				transfer_state = 597
+				transfer_state = 614
+				add_state_claim = 613
+				if = {
+					limit = {
+						ROOT = { controls_state = 743 }
+					}
+					transfer_state = 743
+				}
+			}
+			country_event = { id = japan.2 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					is_historical_focus_on = yes
+					has_country_flag = CHI_AI_RANDOM_HISTORICAL
+					has_game_rule = {
+						rule = CHI_ai_behavior
+						option = HISTORICAL
+					}
+				}
+				NOT = {
+					has_game_rule = { #used here instead of checking for default because people might not have WTT
+						rule = CHI_ai_behavior
+						option = ALTERNATE
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				JAP = {
+					has_war = yes
+				}
+			}
+			modifier = {
+				factor = 0.25
+				JAP = {
+					any_enemy_country = {
+						is_major = yes
+					}
+				}
+			}
+		}
+	}
+}
