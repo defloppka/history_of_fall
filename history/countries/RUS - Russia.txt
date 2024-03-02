@@ -45,8 +45,13 @@ create_country_leader = {
 
 add_ideas = {
 	soviet_legacy
+	unprofitable_government
+	diplomatic_isolation
+	officers_of_old_army
+	poor_army
+	flightless_planes
+	wooden_fleet
+	oil_dollars
 	demographic_crisis
 	brain_drain
-	old_kpss
-	corrupted_high_army
 }

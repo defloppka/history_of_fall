@@ -1,8 +1,9 @@
 ideas = {
-	country = {
+	country = {	
 	
+		# Политические духи
 		soviet_legacy = {
-			picture = great_depression
+			picture = GFX_idea_soviet_legacy
 			
 			allowed = {
 				tag = RUS
@@ -22,12 +23,23 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.2
-
+				production_speed_infrastructure_factor = -0.15
+				production_speed_rail_way_factor = -0.05
+				production_speed_supply_node_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = -0.1
+				production_speed_naval_base_factor = -0.1
+				production_speed_radar_station_factor = -0.1
+				production_speed_air_base_factor = -0.1
+				production_speed_anti_air_building_factor = 0.1
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
 			}
 		}
-
-		demographic_crisis = {
-			picture = great_depression
+		
+		unprofitable_government = {
+			picture = GFX_idea_unprofitable_government
 			
 			allowed = {
 				tag = RUS
@@ -46,14 +58,17 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription_factor = -0.35
-				stability_factor = -0.15
-
+				political_advisor_cost_factor = 0.1
+				economy_cost_factor = 0.2
+				trade_laws_cost_factor = 0.2
+				mobilization_laws_cost_factor = 0.2
+				political_power_cost = 0.3
 			}
 		}
 		
-		brain_drain = {
-			picture = great_depression
+		# Внешнеполитические духи
+		diplomatic_isolation = {
+			picture = GFX_idea_diplomatic_isolation
 			
 			allowed = {
 				tag = RUS
@@ -72,13 +87,142 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				research_speed_factor = -0.15
-				production_factory_start_efficiency_factor = -0.1
+				guarantee_cost = 0.2
+				guarantee_tension = 0.6
+				join_faction_tension = 0.4
+				improve_relations_maintain_cost_factor = 0.5
+				opinion_gain_monthly_factor = -0.3
+			}
+		}
+
+		# Армейские духи
+		officers_of_old_army = {
+			picture = GFX_idea_officers_of_old_army
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_chief_cost_factor = 0.2
+				navy_chief_cost_factor = 0.2
+				air_chief_cost_factor = 0.2
+				high_command_cost_factor = 0.2
+				command_power_gain = -0.2
+				experience_gain_army = -0.2
+				experience_gain_factor = -0.2
+				land_doctrine_cost_factor = 0.2
+				air_doctrine_cost_factor = 0.2
+				naval_doctrine_cost_factor = 0.2
+				planning_speed = -0.3
+				dig_in_speed_factor = -0.3
 			}
 		}
 		
-		old_kpss = {
-			picture = great_depression
+		poor_army = {
+			picture = GFX_idea_poor_army
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.3
+				army_defence_factor = -0.3
+				army_speed_factor = -0.3
+				army_org_factor = -0.3
+				army_org_regain = -0.2
+				training_time_army_factor = 0.4
+				experience_gain_army_unit_factor = -0.3
+			}
+		}
+		
+		flightless_planes = {
+			picture = GFX_idea_flightless_planes
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_bonus_air_superiority_factor = -0.15
+				air_attack_factor = -0.3
+				air_defence_factor = -0.3
+				air_agility_factor = -0.3
+				air_maximum_speed_factor = -0.3
+				air_accidents_factor = 0.2
+				experience_gain_air_factor = -0.3
+			}
+		}
+		
+		wooden_fleet = {
+			picture = GFX_idea_wooden_fleet
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				naval_damage_factor = -0.2
+				naval_defense_factor = -0.2
+				naval_org_factor = -0.2
+				experience_gain_naval_factor = -0.3
+				naval_speed_factor = -0.3
+				navy_max_range_factor = -0.3
+			}
+		}
+		
+		# Экономические духи	
+		unprofitable_government = {
+			picture = GFX_idea_unprofitable_government
 			
 			allowed = {
 				tag = RUS
@@ -110,8 +254,8 @@ ideas = {
 			}
 		}
 		
-		corrupted_high_army = {
-			picture = great_depression
+		oil_dollars = {
+			picture = GFX_idea_oil_dollars
 			
 			allowed = {
 				tag = RUS
@@ -130,15 +274,67 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				army_chief_cost_factor = 0.2
-				navy_chief_cost_factor = 0.2
-				air_chief_cost_factor = 0.2
-				high_command_cost_factor = 0.2
-				command_power_gain = -0.2
-				experience_gain_army = -0.2
+				political_power_factor = -0.1
+				local_resources_factor = -0.3
+				state_resources_factor = -0.2
+				fuel_gain_factor = 0.2
+				production_speed_fuel_silo_factor = 0.2
+				production_speed_synthetic_refinery_factor = 0.2
 			}
 		}
 		
+		# Социальные духи
+		demographic_crisis = {
+			picture = GFX_idea_demographic_crisis
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.5
+				stability_factor = -0.15
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+			}
+		}
+		
+		brain_drain = {
+			picture = GFX_idea_no_technologies
+			
+			allowed = {
+				tag = RUS
+			}
+
+			available = {
+
+			}
+
+			cancel = { }
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.15
+				production_factory_start_efficiency_factor = -0.1
+			}
+		}
 		
 	}
 }
